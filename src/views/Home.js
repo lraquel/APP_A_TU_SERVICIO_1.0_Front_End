@@ -1,27 +1,9 @@
-/* import { useParams, Link } from "react-router-dom";
-import React, { useState, useEffect} from "react"; */
 import Portafolio from "../components/Portafolio";
 import Services from "../components/Services";
 import Promocion from "../components/Promocion";
-/* import { Context } from "../store/context"; */
+
 
 const Home = () => {
-/* const [feeds, setFeeds]=useState([]);
-
-
-
-  const getFeedHome = () => {
-      fetch(`http://localhost:5000/services`)
-          .then(res => res.json())
-          .then(data => setFeeds(data))
-          .catch(err => console.error(err));
-      }
-      
-      
-      useEffect(() => {
-          getFeedHome();    
-      }, []) */
-
 
   return (
     <>
